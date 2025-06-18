@@ -50,6 +50,8 @@ Digital-Nurture-4.0-JavaFSE/
 
 `This structure provides a clear organization for the Java Full Stack Engineer (JavaFSE) course materials, ensuring easy navigation and access to resources.`
 
+---
+
 
 Each week's folder contains Assignments & `Each Assignment contains` :
 - 🧠 Source code (`/src`)
