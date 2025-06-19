@@ -38,7 +38,7 @@ Number of years n :
 🔧 Formula:
 Future Value after n years:
 
-![Recursive Formula](https://github.com/SudipSarkar1193/Digital-Nurture-4.0-JavaFSE/blob/main/Week1/Data%20Structure%20%26%20Algorithm/Exercise%207%20-%20%20Financial%20Forecasting/imagesForREADME/CodeCogsEqn.svg?raw=true)
+![Recursive Formula](https://github.com/SudipSarkar1193/Digital-Nurture-4.0-JavaFSE/blob/main/Week1/Data%20Structure%20%26%20Algorithm/Exercise%207%20-%20%20Financial%20Forecasting/imagesForREADME/CodeCogsEqn.png?raw=true)
 
 
 ### Key Features
