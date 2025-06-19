@@ -91,3 +91,184 @@ For an e-commerce platform with a large product catalog (e.g., thousands of prod
 - **Scalability**: As the product catalog grows, Binary Search’s performance advantage becomes more pronounced, ensuring scalability.
 
 In conclusion, while Linear Search is simpler and viable for small catalogs, Binary Search is the optimal choice for an e-commerce platform due to its efficiency and suitability for large-scale, frequent search operations.
+
+---
+# Output 
+
+## Output 1
+
+```bash
+PS C:\Users\DESKTOP\Desktop\01__Digital_Narture_4.0\Week1\Data Structure & Algorithm\Exercise 2 -  E-commerce Platform Search Function> javac -d bin src\Main.java src\model\Product.java src\service\ProductService.java src\util\ProductMergeSort.java src\util\ProductSearch.java
+PS C:\Users\DESKTOP\Desktop\01__Digital_Narture_4.0\Week1\Data Structure & Algorithm\Exercise 2 -  E-commerce Platform Search Function> java -cp bin Main
+Products :
+
+Product{ID=1, Name='Laptop Pro', Category='Electronics'}
+Product{ID=2, Name='Smartphone X', Category='Electronics'}
+Product{ID=3, Name='Wireless Headphones', Category='Accessories'}
+Product{ID=4, Name='Running Shoes', Category='Fashion'}
+Product{ID=5, Name='Graphic Novel', Category='Books'}
+Product{ID=6, Name='Desk Lamp', Category='Home'}
+Product{ID=7, Name='Yoga Mat', Category='Sports'}
+Product{ID=8, Name='Action Figure', Category='Toys'}
+Product{ID=9, Name='Smart Watch', Category='Accessories'}
+Product{ID=10, Name='Bluetooth Speaker', Category='Electronics'}
+Product{ID=11, Name='Casual Jacket', Category='Fashion'}
+Product{ID=12, Name='Mystery Book', Category='Books'}
+Product{ID=13, Name='Coffee Maker', Category='Home'}
+Product{ID=14, Name='Tennis Racket', Category='Sports'}
+Product{ID=15, Name='Board Game', Category='Toys'}
+Product{ID=16, Name='Tablet', Category='Electronics'}
+Product{ID=17, Name='Denim Jeans', Category='Fashion'}
+Product{ID=18, Name='Science Fiction Book', Category='Books'}
+Product{ID=19, Name='Table Fan', Category='Home'}
+Product{ID=20, Name='Soccer Ball', Category='Sports'}
+Product{ID=21, Name='Building Blocks', Category='Toys'}
+Product{ID=22, Name='Wireless Mouse', Category='Accessories'}
+Product{ID=23, Name='T-shirt', Category='Fashion'}
+Product{ID=24, Name='History Book', Category='Books'}
+Product{ID=25, Name='Bookshelf', Category='Home'}
+Product{ID=26, Name='Basketball', Category='Sports'}
+Product{ID=27, Name='Puzzle Set', Category='Toys'}
+Product{ID=28, Name='USB Charger', Category='Electronics'}
+Product{ID=29, Name='Sweater', Category='Fashion'}
+Product{ID=30, Name='Biography Book', Category='Books'}
+Product{ID=31, Name='Kitchen Mixer', Category='Home'}
+Product{ID=32, Name='Golf Club', Category='Sports'}
+Product{ID=33, Name='Stuffed Animal', Category='Toys'}
+Product{ID=34, Name='Wireless Keyboard', Category='Accessories'}
+Product{ID=35, Name='Dress Shirt', Category='Fashion'}
+Product{ID=36, Name='Fantasy Book', Category='Books'}
+Product{ID=37, Name='Wall Clock', Category='Home'}
+Product{ID=38, Name='Baseball Glove', Category='Sports'}
+Product{ID=39, Name='Card Game', Category='Toys'}
+Product{ID=40, Name='Smart TV', Category='Electronics'}
+Product{ID=41, Name='Leather Belt', Category='Accessories'}
+Product{ID=42, Name='Romance Book', Category='Books'}
+Product{ID=43, Name='Table Runner', Category='Home'}
+Product{ID=44, Name='Swimming Goggles', Category='Sports'}
+Product{ID=45, Name='Robot Toy', Category='Toys'}
+Product{ID=46, Name='Portable Charger', Category='Electronics'}
+Product{ID=47, Name='Skirt', Category='Fashion'}
+Product{ID=48, Name='Thriller Book', Category='Books'}
+Product{ID=49, Name='Floor Lamp', Category='Home'}
+Product{ID=50, Name='Jump Rope', Category='Sports'}
+Product{ID=51, Name='Doll House', Category='Toys'}
+Product{ID=52, Name='Earphones', Category='Accessories'}
+Product{ID=53, Name='Hoodie', Category='Fashion'}
+Product{ID=54, Name='Poetry Book', Category='Books'}
+Product{ID=55, Name='Curtains', Category='Home'}
+Product{ID=56, Name='Football', Category='Sports'}
+Product{ID=57, Name='Remote Control Car', Category='Toys'}
+Product{ID=58, Name='Smart Thermostat', Category='Electronics'}
+Product{ID=59, Name='Scarf', Category='Fashion'}
+Product{ID=60, Name='Non-fiction Book', Category='Books'}
+Product{ID=61, Name='Coffee Table', Category='Home'}
+Product{ID=62, Name='Volleyball', Category='Sports'}
+Product{ID=63, Name='Building Kit', Category='Toys'}
+Product{ID=64, Name='Fitness Tracker', Category='Accessories'}
+Product{ID=65, Name='Blazer', Category='Fashion'}
+Product{ID=66, Name='Self-help Book', Category='Books'}
+Product{ID=67, Name='Desk Organizer', Category='Home'}
+Product{ID=68, Name='Tennis Ball', Category='Sports'}
+Product{ID=69, Name='Play Dough', Category='Toys'}
+Product{ID=70, Name='Webcam', Category='Electronics'}
+Product{ID=71, Name='Tie', Category='Fashion'}
+Product{ID=72, Name='Cookbook', Category='Books'}
+Product{ID=73, Name='Throw Pillow', Category='Home'}
+Product{ID=74, Name='Badminton Racket', Category='Sports'}
+Product{ID=75, Name='Action Toy', Category='Toys'}
+Product{ID=76, Name='External Hard Drive', Category='Electronics'}
+Product{ID=77, Name='Cap', Category='Fashion'}
+Product{ID=78, Name='Travel Book', Category='Books'}
+Product{ID=79, Name='Wall Art', Category='Home'}
+Product{ID=80, Name='Skateboard', Category='Sports'}
+Product{ID=81, Name='Toy Train', Category='Toys'}
+Product{ID=82, Name='Smart Bulb', Category='Electronics'}
+Product{ID=83, Name='Sunglasses', Category='Accessories'}
+Product{ID=84, Name='Children?s Book', Category='Books'}
+Product{ID=85, Name='Area Rug', Category='Home'}
+Product{ID=86, Name='Cycling Helmet', Category='Sports'}
+Product{ID=87, Name='Toy Soldier', Category='Toys'}
+Product{ID=88, Name='Wireless Router', Category='Electronics'}
+Product{ID=89, Name='Backpack', Category='Fashion'}
+Product{ID=90, Name='Art Book', Category='Books'}
+Product{ID=91, Name='Table Cloth', Category='Home'}
+Product{ID=92, Name='Boxing Gloves', Category='Sports'}
+Product{ID=93, Name='Puppet', Category='Toys'}
+Product{ID=94, Name='Portable Speaker', Category='Electronics'}
+Product{ID=95, Name='Wallet', Category='Accessories'}
+Product{ID=96, Name='Classic Book', Category='Books'}
+Product{ID=97, Name='Picture Frame', Category='Home'}
+Product{ID=98, Name='Gym Bag', Category='Sports'}
+Product{ID=99, Name='Toy Car', Category='Toys'}
+Product{ID=100, Name='Headset', Category='Electronics'}
+
+
+
+Enter product name to search: Smart Headset
+
+Linear Search: Product Not Found.
+Linear Search Time: 3699300 ns
+
+
+Binary Search: Product Not Found.
+Binary Search Time: 41200 ns
+
+PS C:\Users\DESKTOP\Desktop\01__Digital_Narture_4.0\Week1\Data Structure & Algorithm\Exercise 2 -  E-commerce Platform Search Function>
+
+```
+
+## output 2
+
+```bash
+
+PS C:\Users\DESKTOP\Desktop\01__Digital_Narture_4.0\Week1\Data Structure & Algorithm\Exercise 2 -  E-commerce Platform Search Function> java -cp bin Main
+
+Products :
+
+Product{ID=1, Name='Laptop Pro', Category='Electronics'}
+Product{ID=2, Name='Smartphone X', Category='Electronics'}
+Product{ID=3, Name='Wireless Headphones', Category='Accessories'}
+Product{ID=4, Name='Running Shoes', Category='Fashion'}
+Product{ID=5, Name='Graphic Novel', Category='Books'}
+Product{ID=6, Name='Desk Lamp', Category='Home'}
+Product{ID=7, Name='Yoga Mat', Category='Sports'}
+Product{ID=8, Name='Action Figure', Category='Toys'}
+Product{ID=9, Name='Smart Watch', Category='Accessories'}
+Product{ID=10, Name='Bluetooth Speaker', Category='Electronics'}
+Product{ID=11, Name='Casual Jacket', Category='Fashion'}
+.
+.
+.
+.
+.
+Product{ID=86, Name='Cycling Helmet', Category='Sports'}
+Product{ID=87, Name='Toy Soldier', Category='Toys'}
+Product{ID=88, Name='Wireless Router', Category='Electronics'}
+Product{ID=89, Name='Backpack', Category='Fashion'}
+Product{ID=90, Name='Art Book', Category='Books'}
+Product{ID=91, Name='Table Cloth', Category='Home'}
+Product{ID=92, Name='Boxing Gloves', Category='Sports'}
+Product{ID=93, Name='Puppet', Category='Toys'}
+Product{ID=94, Name='Portable Speaker', Category='Electronics'}
+Product{ID=95, Name='Wallet', Category='Accessories'}
+Product{ID=96, Name='Classic Book', Category='Books'}
+Product{ID=97, Name='Picture Frame', Category='Home'}
+Product{ID=98, Name='Gym Bag', Category='Sports'}
+Product{ID=99, Name='Toy Car', Category='Toys'}
+Product{ID=100, Name='Headset', Category='Electronics'}
+
+
+
+Enter product name to search: Gym BaG
+
+Linear Search: Product Found: Product{ID=98, Name='Gym Bag', Category='Sports'}
+Linear Search Time: 4850600 ns
+
+
+Binary Search: Product Found: Product{ID=98, Name='Gym Bag', Category='Sports'}
+Binary Search Time: 20300 ns
+
+PS C:\Users\DESKTOP\Desktop\01__Digital_Narture_4.0\Week1\Data Structure & Algorithm\Exercise 2 -  E-commerce Platform Search Function>
+
+```
