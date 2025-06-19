@@ -38,7 +38,8 @@ Number of years n :
 🔧 Formula:
 Future Value after n years:
 
-[Recursive Formula](./CodeCogsEqn.svg)
+![Recursive Formula](./imagesForReadme/CodeCogsEqn.svg)
+
 
 ### Key Features
 - **Recursive Algorithm**: Computes future value using recursion, simplifying the problem by breaking it down into smaller subproblems.
