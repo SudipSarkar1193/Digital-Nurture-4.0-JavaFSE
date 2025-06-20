@@ -19,22 +19,21 @@ Below is the organized structure of the **Digital-Nurture-4.0-JavaFSE** reposito
 
 ```
 Digital-Nurture-4.0-JavaFSE/
-├── Week1/
-│   ├── DesignPatterns/
-│   │   ├── Exercise 1/
-│   │   │   ├── bin/
-│   │   │   ├── output/
-│   │   │   ├── src/
-│   │   ├── Exercise 2/
-│   │   │   ├── ...
-│   │   │   ├── ...
-│   ├── Data Structure & Algorithms/
+├── Week1_DesignPatterns/   
+│   ├── Exercise 1/
+│   │   ├── bin/
+│   │   ├── output/
+│   │   ├── src/
+│   ├── Exercise 2/
+│   │   ├── ...
+│   │   ├── ...
+├── Week1_Data Structure & Algorithms/
 │   │   ├── ...
 │   │
-├── Week2/
+├── Week2_[subject]/
 │   ├── ...
 │
-├── Week3/
+├── Week3_[subject]/
 │   ├── ...
 │
 └── ...
