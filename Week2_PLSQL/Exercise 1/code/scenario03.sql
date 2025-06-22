@@ -1,5 +1,6 @@
 -- Loan Due Reminder in Next 30 Days
 
+
 SET SERVEROUTPUT ON;
 
 DECLARE

@@ -5,6 +5,7 @@ VALUES (101, 'Amit Sharma', 65, 15000.00, 8.5);
 INSERT INTO Customers (CustomerID, Name, Age, Balance, InterestRate)
 VALUES (102, 'Priya Verma', 58, 9500.00, 9.0);
 
+
 INSERT INTO Customers (CustomerID, Name, Age, Balance, InterestRate)
 VALUES (103, 'Rahul Gupta', 70, 12000.00, 7.8);
 

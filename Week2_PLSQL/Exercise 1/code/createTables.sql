@@ -9,7 +9,6 @@ CREATE TABLE Customers (
 );
 
 
-
 -- Loans Table
 CREATE TABLE Loans (
     LoanID     NUMBER PRIMARY KEY,
