@@ -8,6 +8,8 @@ CREATE TABLE Customers (
     IsVIP        VARCHAR2(5) DEFAULT 'FALSE'
 );
 
+
+
 -- Loans Table
 CREATE TABLE Loans (
     LoanID     NUMBER PRIMARY KEY,
