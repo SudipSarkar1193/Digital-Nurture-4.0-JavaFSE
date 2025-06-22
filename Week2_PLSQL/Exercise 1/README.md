@@ -1,4 +1,4 @@
-# Digital Nurture 4.0 Java FSE - PL/SQL Assignment
+# Digital Nurture 4.0 Java FSE - PL/SQL Exercise 01
 
 ## Overview
 This assignment focuses on implementing PL/SQL control structures to solve three banking scenarios:
