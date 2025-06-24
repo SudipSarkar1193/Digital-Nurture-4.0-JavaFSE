@@ -40,12 +40,23 @@ Digital-Nurture-4.0-JavaFSE/
 ```
 
 ## Description
-- **Week1/**: Contains materials and exercises for the first week.
-  - **DesignPatterns/**: Includes exercises focused on design patterns.
-    - **Ex 01/**: First exercise with subdirectories for compiled binaries (`bin/`), output files (`output/`), and source code (`src/`).
-    - **Ex 02/**: Second exercise with similar structure (details omitted for brevity).
-  - **Data Structure & Algorithms/**: Contains resources and exercises related to data structures and algorithms.
-- **Week2/**, **Week3/**, etc.: Subsequent weeks' folders with their respective content (to be detailed as needed).
+
+This repository contains week-wise materials, assignments, and exercises for the **Digital Nurture 4.0 – Java Full Stack Engineer (JavaFSE)** training program conducted by **Cognizant**.
+
+- **Week1_DesignPatterns/**: Focused on foundational design pattern concepts.
+  - **Exercise 1/**: 
+    - `src/`: Java source code files for the first exercise.
+    - `bin/`: Compiled class files.
+    - `output/`: Sample outputs and test results.
+  - **Exercise 2/**: Follows a similar structure for a different design pattern implementation.
+  
+- **Week1_Data Structure & Algorithms/**: Contains basic problems and solutions related to common data structures and algorithmic logic using Java.
+
+- **Week2_[subject]/**: Placeholder for content covered in the second week (e.g., PLSQL, Unit Testing , etc.).
+  
+- **Week3_[subject]/**: Placeholder for the third week's topics (e.g., Spring Core, REST APIs, etc.).
+
+- **...**: The structure continues in a modular format for each week, categorizing content by topics and practical exercises.
 
 `This structure provides a clear organization for the Java Full Stack Engineer (JavaFSE) course materials, ensuring easy navigation and access to resources.`
 
