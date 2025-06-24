@@ -41,8 +41,8 @@ Then, sync the project by clicking the "Reload All Maven Projects" icon.
 
 ### 3. Added the Test Class
 1. In `src/test/java`, create a package (e.g., `com.example`).
-2. Create a new Java class named `AssertionsTest`.
-3. Copy the following code into `AssertionsTest.java`:
+2. Created a new Java class named `AssertionsTest`.
+
 
 ```java
 package com.example;
