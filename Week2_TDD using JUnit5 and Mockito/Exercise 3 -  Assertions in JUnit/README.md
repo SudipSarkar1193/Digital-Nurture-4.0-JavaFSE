@@ -1,13 +1,8 @@
 # JUnit Assertions Assignment
 
 ## Overview
-This project demonstrates the use of various JUnit 5 assertions to validate test results in a Java application. The `AssertionsTest` class contains individual test methods, each showcasing a different JUnit assertion (`assertEquals`, `assertTrue`, `assertFalse`, `assertNull`, `assertNotNull`, `assertSame`, `assertNotSame`, `assertArrayEquals`, and `assertThrows`). The project is configured to run in IntelliJ IDEA Ultimate with Maven or Gradle.
+This project demonstrates the use of various JUnit 5 assertions to validate test results in a Java application. The `AssertionsTest` class contains individual test methods, each showcasing a different JUnit assertion (`assertEquals`, `assertTrue`, `assertFalse`, `assertNull`, `assertNotNull`, `assertSame`, `assertNotSame`, `assertArrayEquals`, and `assertThrows`). The project is configured to run in IntelliJ IDEA Ultimate with Maven .
 
-## Prerequisites
-- **Java**: JDK 8 or later (JDK 11 recommended).
-- **IDE**: IntelliJ IDEA Ultimate.
-- **Build Tool**: Maven or Gradle.
-- **Testing Framework**: JUnit 5 (Jupiter).
 
 ## Project Structure
 ```
@@ -20,7 +15,7 @@ src
 │       └── com.example
 │           └── AssertionsTest.java
 ├── output (Contains screenshot of the output)
-pom.xml (or build.gradle for Gradle)
+pom.xml 
 README.md
 ```
 
