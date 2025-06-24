@@ -1,0 +1,142 @@
+# JUnit Assertions Assignment
+
+## Overview
+This project demonstrates the use of various JUnit 5 assertions to validate test results in a Java application. The `AssertionsTest` class contains individual test methods, each showcasing a different JUnit assertion (`assertEquals`, `assertTrue`, `assertFalse`, `assertNull`, `assertNotNull`, `assertSame`, `assertNotSame`, `assertArrayEquals`, and `assertThrows`). The project is configured to run in IntelliJ IDEA Ultimate with Maven or Gradle.
+
+## Prerequisites
+- **Java**: JDK 8 or later (JDK 11 recommended).
+- **IDE**: IntelliJ IDEA Ultimate.
+- **Build Tool**: Maven or Gradle.
+- **Testing Framework**: JUnit 5 (Jupiter).
+
+## Project Structure
+```
+src
+├── main
+│   └── java
+│       └── (empty, as this is a test-only project)
+├── test
+│   └── java
+│       └── com.example
+│           └── AssertionsTest.java
+├── output (Contains screenshot of the output)
+pom.xml (or build.gradle for Gradle)
+README.md
+```
+
+## Setup 
+
+#### Maven
+Added the following to `pom.xml`:
+```xml
+<dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter</artifactId>
+    <version>5.11.0</version>
+    <scope>test</scope>
+</dependency>
+```
+Then, sync the project by clicking the "Reload All Maven Projects" icon.
+
+
+### 3. Added the Test Class
+1. In `src/test/java`, create a package (e.g., `com.example`).
+2. Create a new Java class named `AssertionsTest`.
+3. Copy the following code into `AssertionsTest.java`:
+
+```java
+package com.example;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+public class AssertionsTest {
+
+    @Test
+    public void testAssertEquals() {
+        assertEquals(5, 2 + 3, "2 + 3 should equal 5");
+    }
+
+    @Test
+    public void testAssertTrue() {
+        assertTrue(5 > 3, "5 should be greater than 3");
+    }
+
+    @Test
+    public void testAssertFalse() {
+        assertFalse(5 < 3, "5 should not be less than 3");
+    }
+
+    @Test
+    public void testAssertNull() {
+        assertNull(null, "Object should be null");
+    }
+
+    @Test
+    public void testAssertNotNull() {
+        assertNotNull(new Object(), "Object should not be null");
+    }
+
+    @Test
+    public void testAssertSame() {
+        String str = "Hello";
+        assertSame(str, str, "Should be the same object");
+    }
+
+    @Test
+    public void testAssertNotSame() {
+        assertNotSame(new String("Hello"), new String("Hello"), "Should be different objects");
+    }
+
+    @Test
+    public void testAssertArrayEquals() {
+        int[] expected = {1, 2, 3};
+        int[] actual = {1, 2, 3};
+        assertArrayEquals(expected, actual, "Arrays should be equal");
+    }
+
+    @Test
+    public void testAssertThrows() {
+        assertThrows(ArithmeticException.class, () -> {
+            int result = 1 / 0;
+        }, "Division by zero should throw ArithmeticException");
+    }
+}
+```
+
+## Running the Tests
+1. **Run All Tests**:
+   - Right-click `AssertionsTest` in the Project Explorer.
+   - Select `Run 'AssertionsTest'` or click the green "Run" icon next to the class.
+   - Results appear in the **Run** window, with a green checkmark for passing tests.
+
+2. **Run Individual Test**:
+   - Click the green "Run" icon next to a specific test method (e.g., `testAssertEquals`) to run it alone.
+
+3. **Debug Tests**:
+   - Right-click a test method and select `Debug 'testMethodName'`.
+   - Set breakpoints by clicking in the gutter next to the code line.
+   - Use the Debug window to step through and inspect variables.
+
+4. **View Test Coverage**:
+   - Right-click `AssertionsTest` and select `Run 'AssertionsTest' with Coverage`.
+   - Check the Coverage window for metrics.
+
+## Test Descriptions
+The `AssertionsTest` class includes the following test methods:
+- `testAssertEquals`: Verifies that `2 + 3` equals `5`.
+- `testAssertTrue`: Checks that `5 > 3` is true.
+- `testAssertFalse`: Ensures `5 < 3` is false.
+- `testAssertNull`: Confirms that `null` is null.
+- `testAssertNotNull`: Verifies that a new `Object` is not null.
+- `testAssertSame`: Checks that a string references the same object.
+- `testAssertNotSame`: Ensures two new `String` objects are distinct.
+- `testAssertArrayEquals`: Compares two identical integer arrays.
+- `testAssertThrows`: Validates that division by zero throws an `ArithmeticException`.
+
+
+
+## Notes
+- All tests are designed to pass as written. To experiment with failures, modify an assertion (e.g., change `assertEquals(5, 2 + 3)` to `assertEquals(6, 2 + 3)`).
+- The project uses JUnit 5, which requires Java 8 or later.
+
