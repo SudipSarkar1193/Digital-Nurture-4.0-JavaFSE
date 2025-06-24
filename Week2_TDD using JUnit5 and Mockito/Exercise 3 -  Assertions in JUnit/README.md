@@ -104,23 +104,6 @@ public class AssertionsTest {
 }
 ```
 
-## Running the Tests
-1. **Run All Tests**:
-   - Right-click `AssertionsTest` in the Project Explorer.
-   - Select `Run 'AssertionsTest'` or click the green "Run" icon next to the class.
-   - Results appear in the **Run** window, with a green checkmark for passing tests.
-
-2. **Run Individual Test**:
-   - Click the green "Run" icon next to a specific test method (e.g., `testAssertEquals`) to run it alone.
-
-3. **Debug Tests**:
-   - Right-click a test method and select `Debug 'testMethodName'`.
-   - Set breakpoints by clicking in the gutter next to the code line.
-   - Use the Debug window to step through and inspect variables.
-
-4. **View Test Coverage**:
-   - Right-click `AssertionsTest` and select `Run 'AssertionsTest' with Coverage`.
-   - Check the Coverage window for metrics.
 
 ## Test Descriptions
 The `AssertionsTest` class includes the following test methods:
