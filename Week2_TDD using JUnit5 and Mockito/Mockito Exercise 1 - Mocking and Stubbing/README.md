@@ -1,19 +1,16 @@
 # JUnit Testing Assignment
 
 ## Overview
-This project contains exercises demonstrating JUnit 5 testing concepts in a Java application, including assertions, the Arrange-Act-Assert (AAA) pattern, and mocking with Mockito. The exercises are:
-- **Exercise 1**: Mocking and stubbing an external API using Mockito.
-- **Exercise 3**: Using various JUnit assertions to validate test results.
-- **Exercise 4**: Organizing tests with the AAA pattern and setup/teardown methods.
+This project contains exercises demonstrating Mocking and stubbing an external API using Mockito.
 
 The project is built with IntelliJ IDEA Ultimate .
 
 ## Prerequisites
-- **Java**: JDK 8 or later (JDK 11 recommended).
+- **Java**: JDK 21.
 - **IDE**: IntelliJ IDEA Ultimate.
 - **Build Tool**: Maven.
 - **Testing Framework**: JUnit 5 (Jupiter).
-- **Mocking Library**: Mockito (for Exercise 1).
+- **Mocking Library**: Mockito.
 
 ## Project Structure
 ```
