@@ -17,7 +17,7 @@ public class MyService {
             }
             return data;
         } catch (RuntimeException e) {
-            return "Error: " + e.getMessage();
+            throw e ;
         }
     }
 }
