@@ -1,10 +1,11 @@
 # JUnit Assertions Assignment
 
 ## Overview
+
 This project demonstrates the use of various JUnit 5 assertions to validate test results in a Java application. The `AssertionsTest` class contains individual test methods, each showcasing a different JUnit assertion (`assertEquals`, `assertTrue`, `assertFalse`, `assertNull`, `assertNotNull`, `assertSame`, `assertNotSame`, `assertArrayEquals`, and `assertThrows`). The project is configured to run in IntelliJ IDEA Ultimate with Maven .
 
-
 ## Project Structure
+
 ```
 src
 ├── main
@@ -15,14 +16,16 @@ src
 │       └── com.example
 │           └── AssertionsTest.java
 ├── output (Contains screenshot of the output)
-pom.xml 
+pom.xml
 README.md
 ```
 
-## Setup 
+## Setup
 
 #### Maven
+
 Added the following to `pom.xml`:
+
 ```xml
 <dependency>
     <groupId>org.junit.jupiter</groupId>
@@ -31,13 +34,13 @@ Added the following to `pom.xml`:
     <scope>test</scope>
 </dependency>
 ```
+
 Then, sync the project by clicking the "Reload All Maven Projects" icon.
 
-
 ### 3. Added the Test Class
+
 1. In `src/test/java`, create a package (e.g., `com.example`).
 2. Created a new Java class named `AssertionsTest`.
-
 
 ```java
 package com.example;
@@ -99,9 +102,10 @@ public class AssertionsTest {
 }
 ```
 
-
 ## Test Descriptions
+
 The `AssertionsTest` class includes the following test methods:
+
 - `testAssertEquals`: Verifies that `2 + 3` equals `5`.
 - `testAssertTrue`: Checks that `5 > 3` is true.
 - `testAssertFalse`: Ensures `5 < 3` is false.
@@ -112,9 +116,6 @@ The `AssertionsTest` class includes the following test methods:
 - `testAssertArrayEquals`: Compares two identical integer arrays.
 - `testAssertThrows`: Validates that division by zero throws an `ArithmeticException`.
 
+# Output
 
-
-## Notes
-- All tests are designed to pass as written. To experiment with failures, modify an assertion (e.g., change `assertEquals(5, 2 + 3)` to `assertEquals(6, 2 + 3)`).
-- The project uses JUnit 5, which requires Java 8 or later.
-
+![Output](https://github.com/SudipSarkar1193/Digital-Nurture-4.0-JavaFSE/blob/main/Week2_TDD%20using%20JUnit5%20and%20Mockito/Exercise%203%20-%20%20Assertions%20in%20JUnit/output/AssertionsTest.png?raw=true)
