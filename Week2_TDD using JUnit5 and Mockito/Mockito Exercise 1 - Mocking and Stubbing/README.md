@@ -224,7 +224,8 @@ The `MyServiceTest` class demonstrates mocking and stubbing an `ExternalApi` usi
 - **Mockito Features**:
     - Stubbing with `when(...).thenReturn(...)` and `when(...).thenThrow(...)`.
     - Verifying interactions with `verify(mock, times(1))`.
-  
 
 
+# Output
 
+![Output](https://github.com/SudipSarkar1193/Digital-Nurture-4.0-JavaFSE/blob/main/Week2_TDD%20using%20JUnit5%20and%20Mockito/Mockito%20Exercise%201%20-%20Mocking%20and%20Stubbing/output/Mocking%20%26%20Stubbing.png?raw=true)
