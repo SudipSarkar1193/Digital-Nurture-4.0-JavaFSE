@@ -19,7 +19,7 @@ Exercise1_JUnitSetup/
 ```
 
 ## ⚙️ Tools & Technologies
-- **Java SDK**: 8 or higher
+- **Java SDK**: 21
 - **JUnit**: 4.13.2
 - **Build Tool**: Maven
 - **IDE**: IntelliJ IDEA Ultimate

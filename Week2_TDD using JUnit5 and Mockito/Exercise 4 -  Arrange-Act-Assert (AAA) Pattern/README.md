@@ -1,9 +1,7 @@
 # JUnit Testing Assignment : AAA Pattern
 
 ## Overview
-This Assignment contains exercises demonstrating JUnit 5 testing concepts in a Java application. It includes:
-- **Exercise 3**: Using various JUnit assertions to validate test results.
-- **Exercise 4**: Organizing tests with the `Arrange-Act-Assert (AAA) pattern` and using setup/teardown methods with `@BeforeEach` and `@AfterEach`.
+This Assignment contains exercises demonstrating JUnit 5 testing concepts in a Java application. It includes: Organizing tests with the `Arrange-Act-Assert (AAA) pattern` and using setup/teardown methods with `@BeforeEach` and `@AfterEach`.
 
 The Assignment is configured to run in IntelliJ IDEA Ultimate with Maven.
 
