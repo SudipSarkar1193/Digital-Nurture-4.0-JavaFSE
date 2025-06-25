@@ -25,14 +25,7 @@ Exercise1_JUnitSetup/
 - **IDE**: IntelliJ IDEA Ultimate
 
 
-
-## 🧪 Running Tests
-1. Navigate to `src/test/java/CalculatorTest.java` in IntelliJ.
-2. Right-click on `CalculatorTest.java` and select **Run 'CalculatorTest'**.
-3. View the test results in the **JUnit panel** at the bottom of IntelliJ.
-4. A green bar ✅ indicates all tests passed successfully.
-
-## 🧪 Sample Code
+## Code
 ### `Calculator.java`
 ```java
 public class Calculator {
@@ -65,4 +58,8 @@ target/
 .idea/
 *.iml
 ```
+
+# Output 
+
+![Output](https://github.com/SudipSarkar1193/Digital-Nurture-4.0-JavaFSE/blob/main/Week2_TDD%20using%20JUnit5%20and%20Mockito/Exercise%201%20-%20%20Setting%20Up%20JUnit/output/Setting%20up%20JUnit%20with%20Maven.png?raw=true)
 
