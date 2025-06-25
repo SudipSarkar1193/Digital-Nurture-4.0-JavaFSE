@@ -161,6 +161,8 @@ The `CalculatorTest` class tests a `Calculator` class using the Arrange-Act-Asse
   - **Act**: Calls the method under test.
   - **Assert**: Verifies the result with assertions.
 
-## Notes
-- All tests are designed to pass as written. To experiment with failures, modify an assertion (e.g., change `assertEquals(8, result)` to `assertEquals(9, result)` in `testAdd`).
-- The project uses JUnit 5, which requires Java 8 or later.
+# Output 
+
+![Output](https://github.com/SudipSarkar1193/Digital-Nurture-4.0-JavaFSE/blob/main/Week2_TDD%20using%20JUnit5%20and%20Mockito/Exercise%204%20-%20%20Arrange-Act-Assert%20(AAA)%20Pattern/output/AAA_Pattern.png?raw=true)
+
+
