@@ -82,8 +82,8 @@ Each week's folder contains Assignments & `Each Assignment contains` :
 
 ---
 
-## 🙋 Author
-**Sudip Sarkar**  
-**Superset ID:** *6423568*
-**Email :** *official.sudipsarkar2003@gmail.com*
-Deep Skilling | Java FSE | Digital Nurture 4.0 | Cognizant
+## 🙋 Author  
+**Sudip Sarkar**    
+**Superset ID:** *6423568*  
+**Email :** *official.sudipsarkar2003@gmail.com*  
+Deep Skilling | Java FSE | Digital Nurture 4.0 | Cognizant  
