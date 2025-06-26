@@ -1,16 +1,21 @@
 # 💼 Digital Nurture 4.0 – Java FSE Mandatory Hands-on Assignments
 
-This repository contains the **mandatory hands-on exercises** completed as part of the **Digital Nurture 4.0 - Deep Skilling Program for Java Full Stack Engineers (FSE)**.
+This repository contains the **mandatory hands-on exercises** completed as part of the **`Cognizant` Digital Nurture 4.0 - Deep Skilling Program for Java Full Stack Engineers (FSE)**.
 
 ## 📚 Program Overview
-The DN 4.0 Deep Skilling journey is designed to build end-to-end proficiency in:
+
+👨‍💻 **Role:** *Java Full Stack Engineer*
+⏳ **Duration:** *8 Weeks*
+📚 **Mode:** *Self-Learning + Instructor Sessions*
+🧠 **Goal:** *Industry-ready full-stack Java developer*
+
+### The DN 4.0 Deep Skilling journey is designed to build end-to-end proficiency in:
 - Core Java programming
 - PL/SQL & database operations
 - Spring Boot, JPA, REST APIs
 - Microservices architecture
 - React (Frontend SPA)
 - DevOps tools, cloud & version control
-
 ---
 
 # 📁 Digital-Nurture-4.0-JavaFSE Repository Structure
@@ -79,4 +84,6 @@ Each week's folder contains Assignments & `Each Assignment contains` :
 
 ## 🙋 Author
 **Sudip Sarkar**  
-Deep Skilling | Java FSE | Digital Nurture 4.0  
+**Superset ID:** *6423568*
+**Email :** *official.sudipsarkar2003@gmail.com*
+Deep Skilling | Java FSE | Digital Nurture 4.0 | Cognizant
