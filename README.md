@@ -70,9 +70,10 @@ This repository contains week-wise materials, assignments, and exercises for the
 
 Each week's folder contains Assignments & `Each Assignment contains` :
 - 🧠 Source code (`/src`)
-- ✅ Compiled binaries (`/bin`)
+- ✅ Compiled binaries (`/bin`) {May or may not be}
 - 📸 Output screenshots (`/output`)
 - 📄 `README.md`
+- 📦 pom.xml {May or may not be}
 
 ---
 
