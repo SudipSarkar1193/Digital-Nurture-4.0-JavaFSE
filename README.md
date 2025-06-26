@@ -4,10 +4,10 @@ This repository contains the **mandatory hands-on exercises** completed as part 
 
 ## 📚 Program Overview
 
-👨‍💻 **Role:** *Java Full Stack Engineer*
-⏳ **Duration:** *8 Weeks*
-📚 **Mode:** *Self-Learning + Instructor Sessions*
-🧠 **Goal:** *Industry-ready full-stack Java developer*
+-👨‍💻 **Role:** *Java Full Stack Engineer*
+-⏳ **Duration:** *8 Weeks*
+-📚 **Mode:** *Self-Learning + Instructor Sessions*
+-🧠 **Goal:** *Industry-ready full-stack Java developer*
 
 ### The DN 4.0 Deep Skilling journey is designed to build end-to-end proficiency in:
 - Core Java programming
