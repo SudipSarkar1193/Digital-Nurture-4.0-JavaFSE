@@ -17,13 +17,13 @@ The project is built with IntelliJ IDEA Ultimate .
 src
 ├── main
 │   └── java
-│       └── com.example
+│       └── com.sudip
 │           ├── Calculator.java
 │           ├── ExternalApi.java
 │           └── MyService.java
 ├── test
 │   └── java
-│       └── com.example
+│       └── com.sudip
 │           ├── AssertionsTest.java
 │           ├── CalculatorTest.java
 │           └── MyServiceTest.java
