@@ -6,7 +6,7 @@ This project is part of my coursework for learning the Spring Framework. The goa
 ## Project Structure
 ```bash
 LibraryManagement/
-├── output (Contains the output Screenshot)
+├── Output_Screenshot (Contains the output Screenshot)
 ├── src/
 │   ├── main/
 │   │   ├── java/
@@ -195,3 +195,7 @@ Book 'Sharadindu Omnibus' added successfully.
 
 Process finished with exit code 0
 ```
+
+### Screenshot :
+
+![Output](https://github.com/SudipSarkar1193/Digital-Nurture-4.0-JavaFSE/blob/main/Week3_Spring%20Core%20and%20Maven/Exercise%202%20-%20Implementing%20Dependency%20Injection/Output_Screenshot/ImplementingDependencyInjection.png?raw=true)
