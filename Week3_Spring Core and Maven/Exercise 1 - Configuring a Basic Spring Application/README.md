@@ -3,6 +3,23 @@
 ## Project Overview
 This project is part of my coursework for learning the Spring Framework. The goal was to create a basic backend for a Library Management system using Spring Core to manage books. The application demonstrates the setup of a Maven project, Spring dependency injection, and basic bean configuration using an XML-based application context.
 
+## Project structure :
+```bash
+LibraryManagement/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/library/
+│   │   │       ├── service/
+│   │   │       │   └── BookService.java
+│   │   │       └── repository/
+│   │   │           └── BookRepository.java
+│   │   └── resources/
+│   │       └── applicationContext.xml
+├── pom.xml
+└── README.md
+```
+
 ## Assignment Requirements
 The assignment required the following steps:
 1. **Set Up a Spring Project**: Create a Maven project named `LibraryManagement` and add Spring Core dependencies in `pom.xml`.
