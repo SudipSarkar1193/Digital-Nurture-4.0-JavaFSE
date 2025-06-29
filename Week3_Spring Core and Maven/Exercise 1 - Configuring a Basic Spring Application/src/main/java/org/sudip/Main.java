@@ -13,6 +13,6 @@ public class Main {
         BookService bookService = (BookService)context.getBean("bookService");
 
         // Test the service
-        bookService.addBook("Spring in Action");
+        bookService.addBook("Feluda Series");
     }
 }
