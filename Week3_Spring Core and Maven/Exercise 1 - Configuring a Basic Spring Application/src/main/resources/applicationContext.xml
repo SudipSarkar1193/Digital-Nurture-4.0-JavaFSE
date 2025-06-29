@@ -6,7 +6,7 @@
 
     <!-- Defining BookRepository Bean -->
     <bean id="bookRepository" class="com.library.repository.BookRepository"/>
-    
+
     <!-- Defining BookService Bean with Dependency Injection -->
     <bean id="bookService" class="com.library.service.BookService">
         <property name="bookRepository" ref="bookRepository"/>
