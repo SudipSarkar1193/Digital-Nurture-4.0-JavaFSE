@@ -6,6 +6,7 @@ This project is part of my coursework for learning the Spring Framework. The goa
 ## Project structure :
 ```bash
 LibraryManagement/
+├── output (Contains the output Screenshot)
 ├── src/
 │   ├── main/
 │   │   ├── java/
@@ -19,14 +20,6 @@ LibraryManagement/
 ├── pom.xml
 └── README.md
 ```
-
-## Assignment Requirements
-The assignment required the following steps:
-1. **Set Up a Spring Project**: Create a Maven project named `LibraryManagement` and add Spring Core dependencies in `pom.xml`.
-2. **Configure the Application Context**: Create an `applicationContext.xml` file to define beans for `BookService` and `BookRepository`.
-3. **Define Service and Repository Classes**: Implement `BookService` in the `com.library.service` package and `BookRepository` in the `com.library.repository` package.
-4. **Run the Application**: Create a main class to test the Spring application context and verify the functionality.
-
 
 ## Setup Instructions
 ### Prerequisites
