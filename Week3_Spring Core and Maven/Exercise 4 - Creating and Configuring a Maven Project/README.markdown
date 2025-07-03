@@ -19,15 +19,9 @@ LibraryManagement/
 └── README.md
 ```
 
-## Assignment Requirements
-The exercise required the following steps:
-1. **Create a New Maven Project**: Set up a Maven project named `LibraryManagement` with `com.sudip` as the base package.
-2. **Add Spring Dependencies**: Include dependencies for Spring Context, Spring AOP, and Spring WebMVC in the `pom.xml` file.
-3. **Configure Maven Plugins**: Configure the Maven Compiler Plugin to use Java 1.8 in the `pom.xml` file.
-
 ## Setup 
 - **Java**: JDK 21
-- **Maven**: 3.8.0 or later
+- **Maven**: 3.8.0 
 - **IDE**: IntelliJ IDEA Ultimate (used for development)
 - **Dependencies**: Spring Framework 5.3.22 (specified in `pom.xml`)
 
@@ -142,6 +136,7 @@ public class Main {
         context.close();
     }
 }
+
 ```
 
 ## Output Screenshot:
