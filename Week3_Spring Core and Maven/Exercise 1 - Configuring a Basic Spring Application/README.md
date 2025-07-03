@@ -39,7 +39,7 @@ LibraryManagement/
 ## Implementation Details
 - **Maven Configuration** (`pom.xml`):
   - Added the Spring Context dependency to enable Spring Core features.
-  - Configured the project to use Java 17.
+  - Configured the project to use Java 21.
 - **Spring Configuration** (`applicationContext.xml`):
   - Defined two beans: `bookRepository` and `bookService`.
   - Used setter-based dependency injection to inject `BookRepository` into `BookService`.

@@ -27,12 +27,7 @@ LibraryManagement/
 
 ### Steps
 1. **Create the Maven Project**:
-   - Open IntelliJ IDEA Ultimate and select **File > New > Project**.
-   - Choose **Maven**, set the Project SDK to Java 1.8, and configure:
-     - **GroupId**: `com.sudip`
-     - **ArtifactId**: `LibraryManagement`
-     - **Version**: `1.0-SNAPSHOT`
-   - Click **Finish** to create the project.
+  
 
 2. **Update pom.xml**:
    - Add dependencies for Spring Context, Spring AOP, Spring WebMVC, and the AspectJ Weaver (required for AOP).
