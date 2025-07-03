@@ -45,10 +45,7 @@ The exercise required the following steps:
    - Configure the Maven Compiler Plugin for Java 1.8.
    - Save the `pom.xml` and reload the Maven project in IntelliJ (use the **Maven** tab and click **Reload All Maven Projects**).
 
-3. **Verify Setup**:
-   - Ensure the project structure includes `src/main/java/com/sudip` and `src/main/resources`.
-   - Check the **External Libraries** section in IntelliJ to confirm that Spring dependencies are downloaded.
-   - Run `mvn clean install` in the terminal or via the Maven tab to verify the build.
+
 
 ## Implementation Details
 - **Maven Configuration** (`pom.xml`):
