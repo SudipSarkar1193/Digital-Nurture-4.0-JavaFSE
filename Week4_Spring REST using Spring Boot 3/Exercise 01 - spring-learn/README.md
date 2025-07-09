@@ -154,7 +154,7 @@ Java HotSpot(TM) 64-Bit Server VM warning: Sharing is only supported for boot lo
 PS C:\Users\DESKTOP\Desktop\01__Digital_Narture_4.0\Week4_Spring REST using Spring Boot 3\Exercise 01 - spring-learn>
 PS C:\Users\DESKTOP\Desktop\01__Digital_Narture_4.0\Week4_Spring REST using Spring Boot 3\Exercise 01 - spring-learn>
 ```
-- - Screenshots :
+### Screenshots 
     ![output](https://github.com/SudipSarkar1193/Digital-Nurture-4.0-JavaFSE/blob/main/Week4_Spring%20REST%20using%20Spring%20Boot%203/Exercise%2001%20-%20spring-learn/Output_Screenshots/mvn%20build%20part-01.png?raw=true)
     ![output](https://github.com/SudipSarkar1193/Digital-Nurture-4.0-JavaFSE/blob/main/Week4_Spring%20REST%20using%20Spring%20Boot%203/Exercise%2001%20-%20spring-learn/Output_Screenshots/mvn%20build%20part-02.png?raw=true)
 
@@ -192,6 +192,6 @@ Application Started Successfully.
 
 
 ```
-- Screenshot :
+### Screenshot 
 
 ![output](https://github.com/SudipSarkar1193/Digital-Nurture-4.0-JavaFSE/blob/main/Week4_Spring%20REST%20using%20Spring%20Boot%203/Exercise%2001%20-%20spring-learn/Output_Screenshots/Running%20the%20app.png?raw=true)
