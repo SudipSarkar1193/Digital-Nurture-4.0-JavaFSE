@@ -195,4 +195,4 @@ server.port=8083
 
 ##  Output
 
-![output](?raw=true)
+![output](https://github.com/SudipSarkar1193/Digital-Nurture-4.0-JavaFSE/blob/main/Week4_Spring%20REST%20using%20Spring%20Boot%203/Exercise%2004%20-%20REST%20-%20Country%20Web%20Service/Output_Screenshot/OUTPUT.png?raw=true)
