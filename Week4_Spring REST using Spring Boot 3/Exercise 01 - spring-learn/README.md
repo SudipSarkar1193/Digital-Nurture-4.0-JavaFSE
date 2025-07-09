@@ -10,7 +10,7 @@ This is a basic Spring Boot web application created using [Spring Initializr](ht
 - **Artifact ID:** `spring-learn`
 - **Spring Boot Version:** 3.5.3
 - **Build Tool:** Maven
-- **Java Version:** 21 (or as selected)
+- **Java Version:** 21 
 
 ---
 
