@@ -47,7 +47,7 @@ GET http://localhost:8080/countries/in
 
 ## Output Screenshot
 
-![output](?raw=true)
+![output](https://github.com/SudipSarkar1193/Digital-Nurture-4.0-JavaFSE/blob/main/Week4_Spring%20REST%20using%20Spring%20Boot%203/Exercise%2005%20-%20REST%20-%20Get%20country%20based%20on%20country%20code/Output_Screenshot/Output.png?raw=true)
 
 ## 📝 Features
 
@@ -166,8 +166,181 @@ GET http://localhost:8080/countries/in
 
 ```
 
+### Codes 
 
+### Dummy data : countries.xml
 
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<countries>
+    <country>
+        <code>IN</code>
+        <name>India</name>
+    </country>
+    <country>
+        <code>US</code>
+        <name>United States</name>
+    </country>
+    <country>
+        <code>DE</code>
+        <name>Germany</name>
+    </country>
+    <country>
+        <code>JP</code>
+        <name>Japan</name>
+    </country>
+</countries>
 
+```
 
+### Coutry.java - Model class 
 
+```java
+package com.cognizant.spring_learn.model;
+
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement(name = "country")
+public class Country {
+    private String code;
+    private String name;
+
+    public Country() {}
+
+    public Country(String code, String name) {
+        this.code = code;
+        this.name = name;
+    }
+
+    public String getCode() {
+        return code;
+    }
+
+    public void setCode(String code) {
+        this.code = code.toUpperCase(); // Following convention
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+}
+
+```
+
+### CoutryList.java - Wrapper for Country List 
+
+```java
+package com.cognizant.spring_learn.model;
+
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+import java.util.List;
+
+@XmlRootElement(name = "countries")
+public class CountryList {
+
+    private List<Country> countries;
+
+    @XmlElement(name = "country")
+    public List<Country> getCountries() {
+        return countries;
+    }
+
+    public void setCountries(List<Country> countries) {
+        this.countries = countries;
+    }
+}
+
+```
+
+### CoutryService.java - Service Class
+
+```java
+package com.cognizant.spring_learn.service;
+
+import com.cognizant.spring_learn.model.Country;
+import com.cognizant.spring_learn.model.CountryList;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.stereotype.Service;
+
+import jakarta.annotation.PostConstruct;
+import org.springframework.web.server.ResponseStatusException;
+
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.Unmarshaller;
+import java.io.InputStream;
+import java.util.List;
+
+@Service
+public class CountryService {
+
+    private List<Country> countries;
+
+    @PostConstruct
+    public void init() throws Exception {
+        InputStream is = getClass().getClassLoader().getResourceAsStream("country.xml");
+        JAXBContext context = JAXBContext.newInstance(CountryList.class);
+        Unmarshaller unmarshaller = context.createUnmarshaller();
+        CountryList countryList = (CountryList) unmarshaller.unmarshal(is);
+        this.countries = countryList.getCountries();
+    }
+
+    public Country getCountry(String code) throws Exception {
+        for(Country con : countries){
+            if (con.getCode().equalsIgnoreCase(code)) {
+                return con;
+            }
+        }
+        throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Country not found for country code: " + code);
+    }
+}
+
+```
+
+### CoutryController.java - Controller class 
+
+```java
+package com.cognizant.spring_learn.controller;
+
+import com.cognizant.spring_learn.model.Country;
+import com.cognizant.spring_learn.service.CountryService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+@RestController
+public class CountryController {
+
+    @Autowired
+    private CountryService countryService;
+
+    @GetMapping("/countries/{code}")
+    public Country getCountry(@PathVariable String code) throws Exception {
+        return countryService.getCountry(code);
+    }
+}
+
+```
+
+### SpringLearnApplication.java - Main Application Class
+
+```java
+package com.cognizant.spring_learn;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringLearnApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringLearnApplication.class, args);
+	}
+
+}
+
+```
