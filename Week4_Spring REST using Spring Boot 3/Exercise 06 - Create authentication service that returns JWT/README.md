@@ -112,7 +112,7 @@ public class JwtUtil {
 
 ```
 
-### SecurityFilterChain.java 
+### SecurityConfig.java 
 
 ```java     
 package com.cognizant.jwt_auth.config;
