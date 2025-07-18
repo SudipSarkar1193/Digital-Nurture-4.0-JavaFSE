@@ -1,0 +1,3 @@
+spring.application.name=loan
+
+server.port=8081
