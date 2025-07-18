@@ -14,8 +14,7 @@ public class AccountController {
 
     @GetMapping("/{number}")
     public Account getAccount(@PathVariable String number){
-        System.out.println("getAccount");
-        return new Account(number, "savings", 1000+  Math.random()*15478);
+        return new Account(number, "savings", (float)(Math.round(1000+  Math.random()*15478)));
     }
 
 }
