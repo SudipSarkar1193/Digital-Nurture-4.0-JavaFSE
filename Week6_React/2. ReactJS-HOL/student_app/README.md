@@ -98,4 +98,4 @@ body {
 
 ## Output 
 
-![output](?raw=true)
+![output](https://github.com/SudipSarkar1193/Digital-Nurture-4.0-JavaFSE/blob/main/Week6_React/2.%20ReactJS-HOL/student_app/Output_Screenshot/OUTPUT.png?raw=true)
