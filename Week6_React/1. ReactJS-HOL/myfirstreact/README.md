@@ -34,4 +34,4 @@ h1{
 
 ## Output 
 
-
+![output](https://github.com/SudipSarkar1193/Digital-Nurture-4.0-JavaFSE/blob/main/Week6_React/1.%20ReactJS-HOL/myfirstreact/output_Screenshot/OUTPUT.png?raw=true)
