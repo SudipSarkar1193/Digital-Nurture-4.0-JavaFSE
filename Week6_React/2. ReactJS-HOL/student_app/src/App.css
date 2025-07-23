@@ -1,0 +1,15 @@
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+body {
+  font-family: Arial, sans-serif;
+  font-style: italic;
+  margin: 0;
+}
