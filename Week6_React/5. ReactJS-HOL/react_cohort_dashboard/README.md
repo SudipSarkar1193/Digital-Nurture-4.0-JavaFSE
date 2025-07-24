@@ -51,6 +51,6 @@ Some components may use inline styles based on props:
 </h3>
 ```
 
-## Output
+## 🖥️ Output
 
-
+![output](https://github.com/SudipSarkar1193/Digital-Nurture-4.0-JavaFSE/blob/main/Week6_React/5.%20ReactJS-HOL/react_cohort_dashboard/Output_Screenshot/OUTPUT.png?raw=true)
