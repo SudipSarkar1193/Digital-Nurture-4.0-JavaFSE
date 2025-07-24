@@ -110,3 +110,4 @@ export default App;
 
 ## Output :
 
+![output](https://github.com/SudipSarkar1193/Digital-Nurture-4.0-JavaFSE/blob/main/Week6_React/3.%20ReactJS-HOL/score_calculator_app/Output_Screenshot/OUTPUT.png?raw=true)
