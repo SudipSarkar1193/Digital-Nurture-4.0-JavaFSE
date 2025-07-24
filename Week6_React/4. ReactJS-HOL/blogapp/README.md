@@ -111,3 +111,5 @@ export default Posts;
 ```
 
 ## Ouput
+
+![output](https://github.com/SudipSarkar1193/Digital-Nurture-4.0-JavaFSE/blob/main/Week6_React/4.%20ReactJS-HOL/blogapp/Output_Screenshot/Output.png?raw=true)
