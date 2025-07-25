@@ -26,14 +26,18 @@ Below is the organized structure of the **Digital-Nurture-4.0-JavaFSE** reposito
 Digital-Nurture-4.0-JavaFSE/
 ├── Week1_DesignPatterns/   
 │   ├── Exercise 1/
-│   │   ├── bin/
-│   │   ├── output/
-│   │   ├── src/
+│   │     ├── bin/
+│   │     ├── output/
+│   │     ├── src/
 │   ├── Exercise 2/
-│   │   ├── ...
-│   │   ├── ...
+│   │     ├── ...
+│   │     ├── ...
 ├── Week1_Data Structure & Algorithms/
-│   │   ├── ...
+│   │   ├── Exercise 2/
+│   │       ├── Output_Screenshot
+│   │       ├── {....IntelliJ Folder structure for spring project
+│   │       ├──    
+│   │       ├── }
 │   │
 ├── Week2_[subject]/
 │   ├── ...
@@ -53,7 +57,9 @@ This repository contains week-wise materials, assignments, and exercises for the
     - `src/`: Java source code files for the first exercise.
     - `bin/`: Compiled class files.
     - `output/`: Sample outputs and test results.
-  - **Exercise 2/**: Follows a similar structure for a different design pattern implementation.
+  - **Exercise 2/**: Follows a similar structure for a different design pattern implementation or this -
+    - `output_Screenshot/`: Sample output Screenshots.
+    - {....IntelliJ Folder structure for spring project}
   
 - **Week1_Data Structure & Algorithms/**: Contains basic problems and solutions related to common data structures and algorithmic logic using Java.
 
