@@ -1,25 +1,25 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import ListofPlayers from './ListofPlayers';
+import IndianPlayers from './IndianPlayers';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  const flag = true; 
+
+  if (flag) {
+    return (
+      <div>
+        <h1>List of Players</h1>
+        <ListofPlayers />
+      </div>
+    );
+  } else {
+    return (
+      <div>
+        <IndianPlayers />
+      </div>
+    );
+  }
 }
 
 export default App;
