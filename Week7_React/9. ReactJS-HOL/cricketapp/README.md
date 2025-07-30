@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# 🏏 Cricket App - React JS Assignment
+Hey there! This is my submission for the ReactJS Hands-on Lab. It's a simple app I built to practice some of the cool features from ES6 within a React environment.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📝 What's this all about?
+This project is a small React application called cricketapp. The main goal was to get comfortable with modern JavaScript (ES6) features. I've implemented a couple of different components to show I know how to use things like map(), arrow functions, and destructuring.
 
-## Available Scripts
+The whole app has two main "views" that you can switch between by changing a flag variable in the App.js file.
 
-In the project directory, you can run:
+## ✨ Features Implemented
 
-### `npm start`
+I went a little beyond the original requirements and added a button to toggle between the different views instead of just using a static variable. It makes the app much more interactive!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### ✨ Features
+This app is built around two main components that showcase different ES6 and React concepts:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Interactive View Toggling:** I used the useState hook to add a button that switches between the ListofPlayers view and the IndianPlayers view.
 
-### `npm test`
+- **ListofPlayers Component:** This component is shown first.It renders a list of 11 players and their scores using the `.map()` method.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+It then displays a second, filtered list of players who have scores of 70 or less, which I accomplished using an ES6 arrow function inside the `.filter()` method.
 
-### `npm run build`
+- **IndianPlayers Component:** This is the second view. It demonstrates array destructuring by separating a list of players into "Odd" and "Even" teams and displaying them.
+It also merges two separate arrays of players (
+T20Players and RanjiTrophyPlayers) into a single list using the ES6 `spread (...) operator`.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Output 
 
-### `npm run eject`
+![output](https://github.com/SudipSarkar1193/Digital-Nurture-4.0-JavaFSE/blob/main/Week7_React/9.%20ReactJS-HOL/cricketapp/Output_Screenshot/Output%2001.png?raw=true)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![output](https://github.com/SudipSarkar1193/Digital-Nurture-4.0-JavaFSE/blob/main/Week7_React/9.%20ReactJS-HOL/cricketapp/Output_Screenshot/Output-2.png?raw=true)
