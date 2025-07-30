@@ -15,9 +15,7 @@ This app is built around two main components that showcase different ES6 and Rea
 
 - **Interactive View Toggling:** I used the useState hook to add a button that switches between the ListofPlayers view and the IndianPlayers view.
 
-- **ListofPlayers Component:** This component is shown first.It renders a list of 11 players and their scores using the `.map()` method.
-
-It then displays a second, filtered list of players who have scores of 70 or less, which I accomplished using an ES6 arrow function inside the `.filter()` method.
+- **ListofPlayers Component:** This component is shown first.It renders a list of 11 players and their scores using the `.map()` method. It then displays a second, filtered list of players who have scores of 70 or less, which I accomplished using an ES6 arrow function inside the `.filter()` method.
 
 - **IndianPlayers Component:** This is the second view. It demonstrates array destructuring by separating a list of players into "Odd" and "Even" teams and displaying them.
 It also merges two separate arrays of players (
