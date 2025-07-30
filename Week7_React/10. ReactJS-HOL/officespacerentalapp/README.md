@@ -1,70 +1,21 @@
-# Getting Started with Create React App
+# Office Space Rental App (React Lab)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About This Project
 
-## Available Scripts
+This is a simple React application created for my web development lab. The main goal of this project was to practice using JSX to build a user interface. The app displays a list of office spaces for rent, showing details like the name, address, and monthly rent.
 
-In the project directory, you can run:
+## What I Learned
 
-### `npm start`
+This was a great hands-on lab! I got to practice some important React concepts:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* **JSX Syntax:** I learned how to write HTML-like code directly in my JavaScript files. It felt a bit weird at first but makes building components much easier.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* **Creating Components:** The entire application is built inside the main `App` component.
 
-### `npm test`
+* **Using JavaScript Expressions:** I used curly braces `{}` to embed JavaScript variables and expressions, like displaying the office names and rents.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* **Mapping Arrays to Elements:** Instead of writing the HTML for each office manually, I stored the data in an array of objects and used the `.map()` function to loop through it and render each listing. This was really cool and powerful!
 
-### `npm run build`
+* **Conditional Inline Styling:** I used a ternary operator inside a `style` attribute to change the color of the rent price. If the rent is below Rs. 60000, it shows up in red, and if it's higher, it shows up in green.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Output 
