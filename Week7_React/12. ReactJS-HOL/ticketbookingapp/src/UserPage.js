@@ -1,11 +1,13 @@
-import React from 'react';
+import React from "react";
 
 function UserPage() {
   return (
     <div>
       <h1>Welcome Back!</h1>
       <p>You can now book your tickets.</p>
-      <button>Book Ticket</button>
+      <button onClick={() => alert("Ticket booked successfully!")}>
+        Book Ticket
+      </button>
     </div>
   );
 }
