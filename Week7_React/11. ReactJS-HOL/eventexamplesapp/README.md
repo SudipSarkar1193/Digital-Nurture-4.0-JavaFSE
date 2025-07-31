@@ -38,3 +38,4 @@ I have structured the application into the following components, located in the 
 ## Final output :
 
 
+![output](https://github.com/SudipSarkar1193/Digital-Nurture-4.0-JavaFSE/blob/main/Week7_React/11.%20ReactJS-HOL/eventexamplesapp/output_Screenshot/OUTPUT.png?raw=true)
