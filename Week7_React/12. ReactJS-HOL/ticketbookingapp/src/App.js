@@ -1,22 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import UserPage from "./UserPage";
+import GuestPage from "./GuestPage";
+import "./App.css";
+
+function LoginButton(props) {
+  return <button onClick={props.onClick}>Login</button>;
+}
+
+function LogoutButton(props) {
+  return <button onClick={props.onClick}>Logout</button>;
+}
 
 function App() {
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+
+  const handleLoginClick = () => {
+    setIsLoggedIn(true);
+  };
+
+  const handleLogoutClick = () => {
+    setIsLoggedIn(false);
+  };
+
+  let button;
+  let page;
+
+  if (isLoggedIn) {
+    button = <LogoutButton onClick={handleLogoutClick} />;
+    page = <UserPage />;
+  } else {
+    button = <LoginButton onClick={handleLoginClick} />;
+    page = <GuestPage />;
+  }
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        {page}
+        {button}
       </header>
     </div>
   );
