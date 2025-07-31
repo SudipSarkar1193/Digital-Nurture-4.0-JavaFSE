@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# ReactJS Hands-on Lab: Event Handling Examples
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created as part of my hands-on lab assignment to understand and implement various event handling concepts in React.
 
-## Available Scripts
+## Project Overview
 
-In the project directory, you can run:
+The main goal of this application, named `eventexamplesapp`, is to demonstrate how to handle different user interactions and events within a React application. It covers basic event handling, passing arguments to event handlers, using synthetic events, and managing state in class components.
 
-### `npm start`
+## Features Implemented
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+As per the assignment requirements, I have implemented the following features:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1.  **Counter Component:**
+    * An "Increment" button that increases a counter value.
+    * A "Decrement" button that decreases the counter value.
+    * The "Increment" button is special because it calls two functions at once: one to update the count and another to log a message to the console.
 
-### `npm test`
+2.  **Welcome Button:**
+    * A "Say Welcome" button that, when clicked, calls a function and passes a string argument ("Welcome") to it, which is then displayed in an alert.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3.  **Synthetic Event Demonstration:**
+    * A simple button that demonstrates React's `SyntheticEvent`. When clicked, it logs the entire synthetic event object to the console and shows an alert.
 
-### `npm run build`
+4.  **Currency Convertor:**
+    * A small form to convert an amount from Indian Rupees (INR) to Euros (EUR).
+    * It takes a number as input for INR, and upon clicking the "Convert" button, it calculates and displays the equivalent amount in EUR.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Components Created
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+I have structured the application into the following components, located in the `src/components/` directory:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* `Counter.js`: Manages the counter functionality.
+* `Welcome.js`: Contains the button that passes arguments to its handler.
+* `SyntheticEvent.js`: Demonstrates the use of synthetic events.
+* `CurrencyConvertor.js`: Handles the currency conversion logic.
+* `App.js`: The main component that brings all the other components together.
 
-### `npm run eject`
+## Final output :
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
