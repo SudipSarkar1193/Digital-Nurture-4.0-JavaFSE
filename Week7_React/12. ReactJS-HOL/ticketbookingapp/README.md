@@ -31,3 +31,9 @@ I structured the application with the following components in the `src/` folder:
 * `UserPage.js`: A simple component that displays the view for a logged-in user.
 * The `LoginButton` and `LogoutButton` are small functional components defined directly within `App.js` as suggested by the assignment hints.
 
+## Final Output :
+
+![output](https://github.com/SudipSarkar1193/Digital-Nurture-4.0-JavaFSE/blob/main/Week7_React/12.%20ReactJS-HOL/ticketbookingapp/output_Screenshot/Screenshot%2001.png?raw=true)
+
+
+![output](https://github.com/SudipSarkar1193/Digital-Nurture-4.0-JavaFSE/blob/main/Week7_React/12.%20ReactJS-HOL/ticketbookingapp/output_Screenshot/Screenshot%2002.png?raw=true)
