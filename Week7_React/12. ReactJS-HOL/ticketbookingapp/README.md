@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# ReactJS Hands-on Lab: Conditional Rendering
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project, named "ticketbookingapp," was created to fulfill the requirements of my hands-on lab assignment on conditional rendering in React.
 
-## Available Scripts
+## Assignment Goal
 
-In the project directory, you can run:
+The main objective of this assignment was to learn and implement conditional rendering. The application needed to display different views and components to the user based on their authentication status (whether they are logged in or not).
 
-### `npm start`
+## Features Implemented
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+As required by the assignment, I have built the following functionality:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* **Login/Logout State:** The application maintains a state to track if the user is logged in or logged out.
 
-### `npm test`
+* **Conditional Views:**
+    * When a user is **logged out**, they see a **Guest Page**. This page welcomes them as a guest and shows them flight details, but they cannot book a ticket.
+    * When a user is **logged in**, they see a **User Page**. This page welcomes them back and provides them with the option to book a ticket.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* **Conditional Buttons:**
+    * A **Login** button is displayed when the user is logged out.
+    * A **Logout** button is displayed when the user is logged in.
 
-### `npm run build`
+This entire system is built using an `if-else` condition within the main `App` component to dynamically render the correct page and button.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Components
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+I structured the application with the following components in the `src/` folder:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* `App.js`: This is the main component that holds the `isLoggedIn` state and the core logic for conditional rendering.
+* `GuestPage.js`: A simple component that displays the view for a logged-out user.
+* `UserPage.js`: A simple component that displays the view for a logged-in user.
+* The `LoginButton` and `LogoutButton` are small functional components defined directly within `App.js` as suggested by the assignment hints.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
