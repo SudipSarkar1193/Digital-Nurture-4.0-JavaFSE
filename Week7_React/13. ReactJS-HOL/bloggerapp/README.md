@@ -25,3 +25,9 @@ This assignment was super helpful! I got to implement several important React co
 ## Output
 
 ![output](https://github.com/SudipSarkar1193/Digital-Nurture-4.0-JavaFSE/blob/main/Week7_React/13.%20ReactJS-HOL/bloggerapp/Output_Screenshot/OUTPUT.png?raw=true)
+
+![output](https://github.com/SudipSarkar1193/Digital-Nurture-4.0-JavaFSE/blob/main/Week7_React/13.%20ReactJS-HOL/bloggerapp/Output_Screenshot/output%202.png?raw=true)
+
+![output](https://github.com/SudipSarkar1193/Digital-Nurture-4.0-JavaFSE/blob/main/Week7_React/13.%20ReactJS-HOL/bloggerapp/Output_Screenshot/output%203.png?raw=true)
+
+![output](https://github.com/SudipSarkar1193/Digital-Nurture-4.0-JavaFSE/blob/main/Week7_React/13.%20ReactJS-HOL/bloggerapp/Output_Screenshot/output%204.png?raw=true)
