@@ -20,3 +20,8 @@ This assignment was super helpful! I got to implement several important React co
     3.  **Ternary Operator:** I used the ternary operator (`condition ? if_true : if_false`) to show a different message in the footer depending on whether all components were visible or just one.
 
 * **Basic CSS with Flexbox:** I used CSS Flexbox to create the three-column layout and added a vertical green line between the columns to match the assignment's screenshot.
+
+
+## Output
+
+![output](https://github.com/SudipSarkar1193/Digital-Nurture-4.0-JavaFSE/blob/main/Week7_React/13.%20ReactJS-HOL/bloggerapp/Output_Screenshot/OUTPUT.png?raw=true)
