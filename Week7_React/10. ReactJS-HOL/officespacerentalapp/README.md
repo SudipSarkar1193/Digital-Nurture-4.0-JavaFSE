@@ -2,7 +2,7 @@
 
 ## About This Project
 
-This is a simple React application created for my web development lab. The main goal of this project was to practice using JSX to build a user interface. The app displays a list of office spaces for rent, showing details like the name, address, and monthly rent.
+This is a project I built as part of `Digital Nurture 4.0 program`. The main goal of this project was to practice using JSX to build a user interface. The app displays a list of office spaces for rent, showing details like the name, address, and monthly rent.
 
 ## What I Learned
 

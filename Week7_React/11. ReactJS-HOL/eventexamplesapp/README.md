@@ -1,6 +1,6 @@
 # ReactJS Hands-on Lab: Event Handling Examples
 
-This project was created as part of my hands-on lab assignment to understand and implement various event handling concepts in React.
+This project was created as part of my hands-on lab assignment to understand and implement various event handling concepts in React as part of `Digital Nurture 4.0 program`.
 
 ## Project Overview
 

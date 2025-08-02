@@ -1,5 +1,6 @@
 # 🏏 Cricket App - React JS Assignment
-Hey there! This is my submission for the ReactJS Hands-on Lab. It's a simple app I built to practice some of the cool features from ES6 within a React environment.
+Hey there! This is my submission for the ReactJS Hands-on Lab.
+This "Cricket App" is a project I built as part of `Digital Nurture 4.0 program`. It's a simple app I built to practice some of the cool features from ES6 within a React environment.
 
 ## 📝 What's this all about?
 This project is a small React application called cricketapp. The main goal was to get comfortable with modern JavaScript (ES6) features. I've implemented a couple of different components to show I know how to use things like map(), arrow functions, and destructuring.

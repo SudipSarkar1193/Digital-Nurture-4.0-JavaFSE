@@ -1,6 +1,7 @@
 # ReactJS Hands-on Lab: Conditional Rendering
 
 This project, named "ticketbookingapp," was created to fulfill the requirements of my hands-on lab assignment on conditional rendering in React.
+This is a project I built as part of `Digital Nurture 4.0 program`.
 
 ## Assignment Goal
 
