@@ -1,38 +1,77 @@
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.buttons {
+margin: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+button {
+margin: 0 10px;
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+border: 1px solid \#ccc;
+border-radius: 5px;
+background-color: \#f0f0f0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button:hover {
+background-color: \#e0e0e0;
 }
 
-.App-link {
-  color: #61dafb;
+hr {
+margin-bottom: 20px;
+border: 0;
+border-top: 1px solid \#eee;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.container {
+display: flex; 
+justify-content: space-around;
+text-align: left;
+}
+
+
+.column {
+flex-basis: 30%; 
+padding: 0 20px;
+}
+
+
+.column:not(:last-child) {
+border-right: 3px solid green;
+}
+
+
+.column h2 {
+text-align: center;
+font-weight: bold;
+font-size: 1.5em;
+}
+
+.column h3 {
+margin-top: 20px;
+font-size: 1.2em;
+}
+
+
+.single-view {
+display: inline-block;
+text-align: left;
+padding: 20px;
+border: 1px solid \#ddd;
+border-radius: 8px;
+background-color: \#fafafa;
+}
+
+
+.footer-note {
+margin-top: 30px;
+font-style: italic;
+color: \#555;
 }

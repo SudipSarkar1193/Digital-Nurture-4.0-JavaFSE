@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+# Blogger App - A React Lab on Conditional Rendering
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview
 
-## Available Scripts
+This "Blogger App" is a project I built as part of `Digital Nurture 4.0 program`. The main objective was to get comfortable with **conditional rendering** in React. The app displays three different types of content—Course Details, Book Details, and Blog Details. The cool part is that you can use the buttons to choose which components to display on the screen.
 
-In the project directory, you can run:
+## What I Learned in This Lab
 
-### `npm start`
+This assignment was super helpful! I got to implement several important React concepts:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* **Creating Multiple Components:** I practiced breaking down the UI into smaller, manageable pieces by creating separate components for `CourseDetails`, `BookDetails`, and `BlogDetails`.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* **Passing Data with Props:** I learned how to pass data from a parent component (`App.js`) down to child components. All the course, book, and blog data is stored in `App.js` and sent to the components that need it.
 
-### `npm test`
+* **Rendering Lists with `.map()`:** I used the `.map()` function to loop through arrays of data. This was much better than hardcoding each list item. I also remembered to use the `key` prop, which React needs to keep track of items in a list.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* **Conditional Rendering Techniques:** This was the main focus of the lab. I implemented a few different methods:
+    1.  **`useState` and a `switch` statement:** I used a state variable to hold the current view (`'all'`, `'books'`, etc.). A function with a `switch` statement then returns the correct component(s) based on this state. This felt like the most organized way to handle multiple options.
+    2.  **Logical `&&` Operator:** I used this for a simple case: `show === 'all' && <h1>...</h1>`. It was a quick and easy way to render something only if a condition is true.
+    3.  **Ternary Operator:** I used the ternary operator (`condition ? if_true : if_false`) to show a different message in the footer depending on whether all components were visible or just one.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* **Basic CSS with Flexbox:** I used CSS Flexbox to create the three-column layout and added a vertical green line between the columns to match the assignment's screenshot.
