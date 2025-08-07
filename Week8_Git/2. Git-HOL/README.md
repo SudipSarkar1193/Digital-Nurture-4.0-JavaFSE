@@ -25,6 +25,78 @@ The main objective was to learn how to tell Git to ignore specific files and fol
 
 ---
 
+### Commands 
+
+```bash
+
+D:\GitDemo2>git init
+Initialized empty Git repository in D:/GitDemo2/.git/
+
+D:\GitDemo2>echo "This is a test log file." > app.log
+
+D:\GitDemo2>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        app.log
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\GitDemo2>mkdir log
+
+D:\GitDemo2>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        app.log
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\GitDemo2>
+D:\GitDemo2>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\GitDemo2>git add .gitignore
+
+D:\GitDemo2>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitignore
+
+
+D:\GitDemo2>git commit -m "Added .gitignore file"
+[master (root-commit) a22c095] Added .gitignore file
+ 1 file changed, 2 insertions(+)
+ create mode 100644 .gitignore
+
+D:\GitDemo2>git status
+On branch master
+nothing to commit, working tree clean
+
+D:\GitDemo2>
+
+```
+
+---
+
 This was a really useful exercise. Now I understand how to prevent temporary files, build outputs, and other unnecessary stuff from being accidentally committed to my projects.
 
 ### .gitignore 
