@@ -29,4 +29,4 @@ This was a really useful exercise. Now I understand how to prevent temporary fil
 
 ### .gitignore 
 
-![output](https://github.com/SudipSarkar1193/Digital-Nurture-4.0-JavaFSE/tree/main/Week8_Git/2.%20Git-HOL/Screenshot?raw=true)
+![output](https://github.com/SudipSarkar1193/Digital-Nurture-4.0-JavaFSE/blob/main/Week8_Git/2.%20Git-HOL/Screenshot/Screenshot%202025-08-07%20234714.png?raw=true)
