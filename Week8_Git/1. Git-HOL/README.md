@@ -76,5 +76,10 @@ PS D:\GitDemo>
 
 ```
 
-### Remote Git Repository :
+### Screenshot of the Remote Git Repository 
 
+![output](https://github.com/SudipSarkar1193/Digital-Nurture-4.0-JavaFSE/blob/main/Week8_Git/1.%20Git-HOL/Screenshot/Screenshot%202025-08-07%20232906.png?raw=true)
+
+### Screenshot of the Terminal
+
+![output](https://github.com/SudipSarkar1193/Digital-Nurture-4.0-JavaFSE/blob/main/Week8_Git/1.%20Git-HOL/Screenshot/Screenshot%202025-08-07%20233041.png?raw=true)
