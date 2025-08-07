@@ -90,8 +90,6 @@ Each week's folder contains Assignments & `Each Assignment contains` :
 
 ---
 
----
-
 ## 🚀 Additional Project: Full-Stack Social Media Application (Spring Boot + React)
 
 As part of my personal learning and to strengthen my backend development skills using **Spring Boot**, I’m also working on a **full-stack social media web application** beyond the scope of the DN 4.0 training.
