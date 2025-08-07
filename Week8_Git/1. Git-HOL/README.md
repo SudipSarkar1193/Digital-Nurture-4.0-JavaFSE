@@ -8,8 +8,6 @@ I followed the lab instructions to set up my Git environment and practice the fu
 
 - **Configured Git:** Set up my user.name and user.email.
 
-- **Set Default Editor:** Configured Git to use Notepad++ as the default editor for commit messages.
-
 - **Initialized a Repository:** Created this local repository using git init.
 
 - **Created a File:** Added the welcome.txt file to the project.
